@@ -10,7 +10,7 @@ namespace NoLaziness
     public class NoLazinessAnalyzer : DiagnosticAnalyzer
     {
         public const string DiagnosticId = "NoLaziness";
-
+        
         private static readonly LocalizableString Title = new LocalizableResourceString(nameof(Resources.AnalyzerTitle), Resources.ResourceManager, typeof(Resources));
         private static readonly LocalizableString MessageFormat = new LocalizableResourceString(nameof(Resources.AnalyzerMessageFormat), Resources.ResourceManager, typeof(Resources));
         private static readonly LocalizableString Description = new LocalizableResourceString(nameof(Resources.AnalyzerDescription), Resources.ResourceManager, typeof(Resources));
